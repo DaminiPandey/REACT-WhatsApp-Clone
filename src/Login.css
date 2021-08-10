@@ -1,0 +1,30 @@
+.login{
+    background-color:#f8f8f8;
+    display:grid;
+    place-items:center;
+   
+    height:100vh;
+    width:100vh;
+}
+.login__container{
+    padding:100px;
+    text-align:center;
+    /* background-color: #F0F0CB; */
+    background-image:url("https://i.pinimg.com/originals/35/f3/e9/35f3e9c4b86568b4919949a9307da2a9.png");
+    border-radius: 10px;
+    box-shadow:-1px 4px 20px -6px rgba(0,0,0,0.75);
+}
+.login__container > img{
+    object-fit: contain;
+    height:100px;
+    margin-bottom:40px;
+}
+.login__container > button{
+    margin-top:50px;
+    text-transform:inherit !important;
+    background-color: #0a8d48;
+    color:white;
+}
+.login__container > button:hover{
+    background-color: #50CB93;
+}
